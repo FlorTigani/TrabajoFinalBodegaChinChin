@@ -108,6 +108,27 @@ nav {
 
 
 }
+@media screen and (max-width: 768px) {
+    .sobrenosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+           
+        }
+       
+    
+    .img{
+        max-width: 100%;
+        height: auto;
+        
+       }
+    
+    }
+
+
+ 
 
 .sobrenosotros img {
     border-radius: 50%;
@@ -124,6 +145,7 @@ nav {
     font-weight: bold;
 }
 
+
 .masbuscados {
     h3 {
         font-family: "Dancing Script", cursive;
@@ -138,11 +160,13 @@ nav {
     }
 }
 
+
 .galeriadeimagenes {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     margin: 20px;
+
 
 
     h5 {
@@ -158,9 +182,17 @@ nav {
         height: 150px;
         border: groove 2px black;
     }
-
-
 }
+@media screen and (max-width: 768px) {
+    .galeriadeimagenes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }    
+    }
+
+
 
 /*footer*/
 footer h6 {
@@ -309,7 +341,12 @@ footer a {
 
 
 
-
+@media screen and (max-width: 768px) {
+    .galeriadeimagenes2 {
+        grid-template-columns: 1fr;
+        
+    }
+}
 
 
 
