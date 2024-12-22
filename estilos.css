@@ -421,3 +421,64 @@ img {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 
 }
+
+.container{
+
+   margin: 500px;
+
+}
+
+.btn-sm{
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5%;
+    background-color: #efb810;
+    color: black;
+    font-family: "Dancing Script", cursive;
+    font-size: 1.2em;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+   
+}
+
+.container h1{
+    font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 3em;
+        color: black;
+        margin-top: 150px;
+        text-align: center;
+        text-decoration: underline;
+
+}
+.table-striped{
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5em;
+        color: black;
+        margin-top: 150px;
+        text-align: center;
+       
+}
+
+.table-striped th{
+    font-size: 2em;
+    text-decoration: underline;
+}
+.mt-3{
+    font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.7em;
+        color: black;
+        margin-top: 150px;
+        text-align: center;
+}
